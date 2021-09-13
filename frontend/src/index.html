@@ -14,10 +14,12 @@
   <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
-  <div class="homeContainer">
+  <div id="homeContainer">
     <h1 class="homeTitle">Converter strings</h1>
-    <input class="nameInput" type="text" placeholder="Insira um nome">
-    <button class="convertButton">Converter</button>
+    <input id="nameInput" type="text" placeholder="Insira um nome">
+    <button onclick="convertName()" class="convertButton">Converter</button>
+    <p id="convertedName">O nome aparecerá aqui</p>
   </div>
+  <script src="js/index.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.homeContainer {
+#homeContainer {
   width: 100%;
   max-width: 1300px;
   height: 100vh;
@@ -20,7 +20,7 @@
   max-width: 300px;
 }
 
-.nameInput {
+#nameInput {
   width: 300px;
   height: 50px;
 
@@ -32,8 +32,8 @@
   transition: all 0.2s;
 }
 
-.nameInput:focus-within {
-  border: 2px solid #ff92c2;
+#nameInput:focus-within {
+  border: 2px solid #c42847;
 }
 
 .convertButton {
@@ -41,7 +41,7 @@
   height: 50px;
 
   border-radius: 10px;
-  background: #ffc8fb;
+  background: #de3c4b;
   color: #fff;
 
   font-weight: bold;
@@ -51,5 +51,9 @@
 }
 
 .convertButton:hover {
-  background: #ff92c2;
+  background: #c42847;
+}
+
+#convertedName {
+  color: #999;
 }
